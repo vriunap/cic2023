@@ -1,12 +1,5 @@
-/*-----------------------------------------------------------------------------------
 
-    Template Name: Meeta - Event & Conference HTML5 Template
-    Template URI: https://thepixelcurve.com/
-    Description: A Library of Responsive Bootstrap5, HTML5, and CSS3 Website Templates
-    Author: Thepixelcurve
-    Author URI: https://thepixelcurve.com/
-    Version: 1.0
-
+/*
 -----------------------------------------------------------------------------------
     
     CSS INDEX
@@ -2211,7 +2204,8 @@ label {
 }
 
 .meeta-hero-section-2 {
-  height: 1040px;
+  /* height: 1040px; */
+  height: 100vh;
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2364,7 +2358,8 @@ label {
 
 @media only screen and (max-width: 1199px) {
   .meeta-hero-section-2 {
-    height: 820px;
+    /* height: 820px; */
+    height: 100vh;
   }
   .meeta-hero-section-2 .shape-1 {
     left: 5%;
@@ -2386,6 +2381,10 @@ label {
 }
 
 @media only screen and (max-width: 991px) {
+  .meeta-hero-section-2 {
+    
+    height: 100vh;
+  }
   .meeta-hero-section-2 .shape-1 {
     left: 15%;
     top: 75%;
@@ -2405,7 +2404,8 @@ label {
 
 @media only screen and (max-width: 767px) {
   .meeta-hero-section-2 {
-    height: 650px;
+    /* height: 650px; */
+    height: 100vh;
   }
   .meeta-hero-section-2 .meeta-hero-content .title {
     font-size: 65px;
@@ -2438,7 +2438,8 @@ label {
 
 @media only screen and (max-width: 575px) {
   .meeta-hero-section-2 {
-    height: 550px;
+    /* height: 550px; */
+    height: 100vh;
   }
   .meeta-hero-section-2 .shape-2 img {
     width: 70%;
@@ -2467,7 +2468,7 @@ label {
     line-height: 12px;
   }
   .meeta-hero-section-2 .meeta-hero-content .meeta-countdown-2 .single-countdown .value {
-    font-size: 12px;
+    font-size: 9px;
     margin-top: 8px;
   }
   .header-logo img{
